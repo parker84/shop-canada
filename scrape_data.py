@@ -154,9 +154,9 @@ for ix, section in tqdm(section_data.items()):
 logger.info("Scraping complete ✅")        
 
 logger.info("Saving the data to a JSON file... 📂")
-with open('shop_canada_data.json', 'w') as f:
+with open('./data/shop_canada_data.json', 'w') as f:
     json.dump(section_data, f, indent=4)
-logger.info("Data saved to shop_canada_data.json ✅")
+logger.info("Data saved to ./data/shop_canada_data.json ✅")
 
 # Close the WebDriver
 driver.quit()

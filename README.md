@@ -1,5 +1,5 @@
 # shop-canada
-Repo to scrape and visualize the top Canadian Shopify brands 
+Repo to scrape and visualize the top Canadian Shopify brands 🇨🇦
 
 ## 1) Environment Setup
 ```sh
@@ -26,4 +26,10 @@ python clean_data.py
 ```sh
 source venv/bin/activate
 streamlit run streamlit_app.py
+```
+
+## 5) Debugging
+Clear web driver cache:
+```sh
+rm -rf /Users/<your_username>/.wdm/drivers
 ```
