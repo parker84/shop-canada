@@ -1,7 +1,6 @@
 import streamlit as st
 import coloredlogs, logging
 import pandas as pd
-from plotly import express as px
 
 coloredlogs.install(level='INFO')
 logger = logging.getLogger(__name__)
