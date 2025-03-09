@@ -1,4 +1,4 @@
-# canada-shops
+# shop-canada
 Repo to scrape and visualize the top Canadian Shopify brands 
 
 ## 1) Environment Setup
